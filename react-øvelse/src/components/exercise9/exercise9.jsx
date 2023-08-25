@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Wrapper } from "../wrapper/wrapper";
 import style from './exercise9.module.scss'
+import {Card} from './card'
 
 export function Exercise9() {
 
@@ -21,24 +22,24 @@ export function Exercise9() {
 
     },[userData])
 
+    console.log("data:", userData)
     return (
         <Wrapper title="Exercise 9">
-            <section>
+            <section className= {style.cardContainer}>
                 {
                     userData && userData.map((item) => {
                         return (
                             <Card
                             key= {item.uid}
                             src= {item.avatar}
-                            firstName={item.first_name}
-                            lastName={item.last_name}
+                            firstName={item.first_name + " " + item.last_name}
                             keySkill={item.employment.key_skill}
+                            title={item.employment.title}
                             />
                         )
                     })
                 }
             </section>
- 
     </Wrapper>
     )
 }
