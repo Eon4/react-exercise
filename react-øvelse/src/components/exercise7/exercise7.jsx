@@ -20,7 +20,7 @@ export function Exercise7() {
         <div>
             <input onChange={(event) => setFirstName(event.target.value)}  placeholder="skriv dit navn her" />
             <input onChange={(event) => setLastName(event.target.value)}  placeholder="lastnavn her" />
-            <button onClick={ alertUser} type="button">Greet me</button>
+            <button onClick={alertUser} type="button">Greet Me</button>
         </div>
     </form>
    </Wrapper>
