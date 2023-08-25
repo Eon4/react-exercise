@@ -8,7 +8,7 @@ export function Exercise7() {
     const [lastName, setLastName] = useState("");
 
     function alertUser() {
-        alert (`Hello ${firstName}  ${lastName}`)
+        alert (`Hello ${firstName} ${lastName}`)
     }
 
     console.log("firstname: ", firstName)
