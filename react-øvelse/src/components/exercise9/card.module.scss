@@ -36,16 +36,20 @@
 }
 
 
-  .cardFront{
+.cardFront{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    border-radius: 12px;
+    padding: 5px;
     img{
         width: 80%;
     }
-  }
-
+}
 
 .cardBack{
-    margin: 16px;
-    padding: 16px;
-    transform: rotateY('angle');
-
+    transform: rotateY(180deg);
+    background-color: rgb(55,55,55);
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
 }
