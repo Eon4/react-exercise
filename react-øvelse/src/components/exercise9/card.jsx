@@ -4,10 +4,10 @@ export function Card(props){
 
 
     return (
-        <div>
-            <div>
+         <div className= {style.card}>
+            <div className= {style.cardInner}>
                 <div className= {style.cardFront}>
-            <img src={props.src}></img>
+            <img src={props.src} alt={props.name} ></img>
             <p> {props.firstName} {props.lastName} </p>
             <p>Title: {props.title} </p>
             <p>Skill: {props.keySkill} </p>
