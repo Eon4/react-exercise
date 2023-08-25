@@ -7,6 +7,7 @@ import "./App.css";
 // import { Exercise6 } from "./components/exercise6/Exercise6";
 import { Exercise7 } from "./components/exercise7/exercise7";
 import { Exercise8 } from "./components/exercise8/exercise8";
+import { Exercise9 } from "./components/exercise9/exercise9";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Exercise6/> */}
       <Exercise7/>
       <Exercise8/>
+      <Exercise9/>
 
     </>
   );
