@@ -35,6 +35,10 @@ export function Exercise9() {
                             firstName={item.first_name + " " + item.last_name}
                             keySkill={item.employment.key_skill}
                             title={item.employment.title}
+                            city={item.address.city}
+                            streetName= {item.address.street_name}
+                            state= {item.address.state}
+                            country={item.address.country}
                             />
                         )
                     })
