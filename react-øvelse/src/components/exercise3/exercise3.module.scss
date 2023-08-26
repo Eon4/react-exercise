@@ -1,4 +1,4 @@
-.buttonStyle {
+.buttonStyled {
     background-color: rgb(197, 190, 190);
     color: black;
     border: solid 1px black;
@@ -10,7 +10,7 @@
     transition: all 0.4s ease-in-out;
 }
 
-.buttonStyle:hover {
+.buttonStyled:hover {
     color: rgb(114, 231, 25);
     background-color: rgb(0,0,0)
 }
