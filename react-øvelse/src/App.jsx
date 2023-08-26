@@ -1,6 +1,6 @@
 import "./App.css";
 import { Exercise1 } from "./components/exercise1/exercise1";
-// import { Exercise2 } from "./components/exercise2/Exercise2";
+import { Exercise2 } from "./components/exercise2/exercise2";
 // import { Exercise3 } from "./components/exercise3/Exercise3";
 // import { Exercise4 } from "./components/exercise4/Exercise4";
 // import { Exercise5 } from "./components/exercise5/Exercise5";
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Exercise1 />
-      {/* <Exercise2 /> */}
+      <Exercise2 />
       {/* <Exercise3 /> */}
       {/* <Exercise4 /> */}
       {/* <Exercise5 /> */}
